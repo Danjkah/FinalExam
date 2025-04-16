@@ -1,0 +1,14 @@
+<table class="book-table">
+  <thead>
+  <tr>
+    <th>Author Name</th>
+    <th>Book Title</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let book of books">
+    <td>{{ book.authorName }}</td>
+    <td>{{ book.bookTitle }}</td>
+  </tr>
+  </tbody>
+</table>
